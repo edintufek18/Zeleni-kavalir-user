@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- add RadioGroup which contain the many RadioButton-->
+    <RadioGroup
+        android:layout_marginTop="50dp"
+        android:id="@+id/radioGroup"
+        android:layout_marginLeft="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <!-- In RadioGroup create the 1 Radio Button-->
+        <!-- like this we will add some more Radio Button-->
+
+        <RadioButton
+            android:id="@+id/relativeRadioButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Relative"
+            android:textSize="30sp" />
+
+        <RadioButton
+            android:id="@+id/absoluteRadioButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Absolute"
+            android:textSize="30sp" />
+
+
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Arrival time"
+        android:textSize="30sp" />
+
+
+</RelativeLayout>
